@@ -80,7 +80,7 @@ namespace GroupBoxPanelExample
             this.byeButton.TabIndex = 1;
             this.byeButton.Text = "Bye";
             this.byeButton.UseVisualStyleBackColor = true;
-            this.hiButton.Click += new System.EventHandler(this.byeButton_Click);
+            this.byeButton.Click += new System.EventHandler(this.byeButton_Click);
             // 
             // mainPanel
             // 
@@ -100,7 +100,7 @@ namespace GroupBoxPanelExample
             this.leftButton.TabIndex = 0;
             this.leftButton.Text = "Far Left";
             this.leftButton.UseVisualStyleBackColor = true;
-            this.hiButton.Click += new System.EventHandler(this.leftButton_Click);
+            this.leftButton.Click += new System.EventHandler(this.leftButton_Click);
             // 
             // rightButton
             // 
@@ -110,7 +110,7 @@ namespace GroupBoxPanelExample
             this.rightButton.TabIndex = 1;
             this.rightButton.Text = "Far Right";
             this.rightButton.UseVisualStyleBackColor = true;
-            this.hiButton.Click += new System.EventHandler(this.rightButton_Click);
+            this.rightButton.Click += new System.EventHandler(this.rightButton_Click);
             // 
             // Form1
             // 
